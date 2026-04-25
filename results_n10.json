@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-04-25T15:24:59.605047",
+  "dataset": "HotpotQA fullwiki validation",
+  "model": "llama-3.3-70b-versatile",
+  "n_examples": 10,
+  "baseline_acc": 0.6,
+  "reflexion_acc": 0.6,
+  "dynamical_acc": 0.5,
+  "vs_baseline": -0.1,
+  "vs_reflexion": -0.1,
+  "total_steps": 35,
+  "interventions": 11,
+  "status_counts": {
+    "HEALTHY": 24,
+    "DRIFTING": 9,
+    "UNSTABLE": 2
+  },
+  "contracting_steps": 18,
+  "entropy_mean": 0.8888,
+  "drift_mean": 0.2605,
+  "stability_mean": -1.1493
+}
